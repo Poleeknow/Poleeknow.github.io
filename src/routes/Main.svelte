@@ -1,25 +1,10 @@
 <script lang="ts">
     interface Api {
-        message: string;
-    }
-    const getDogImg = document.getElementById('getDogImg') as HTMLImageElement;
-    const urlForAPI = 'https://dog.ceo/api/breeds/image/random';
-    const dog = document.getElementById('dog') as HTMLImageElement;
-    const two = document.getElementById('two') as HTMLDivElement;
-    let stroka = ''
-    
-    function fetchDogis(): Promise<Api> {
-        return fetch(urlForAPI).then(r => r.json());
+        message: string,
+        status: string;
     }
 
-    function getDog(ulr : Api) {
-        stroka = ulr.message;
-        // dog.src = ulr.message;
-        (<HTMLImageElement> document.getElementById('dog')).src = ulr.message;
-        (<HTMLImageElement> document.getElementById('dog')).style.border = '3px solid hotpink';
-        (<HTMLImageElement> document.getElementById('dog')).style.borderRadius = '50%';
-        (<HTMLElement> document.getElementById('two')).style.display = 'block';
-    }
+    const urlForAPI = 'https://dog.ceo/api/breeds/image/random';
 
     async function handleClick(e) {
         const dogJson = await fetchDogis();
@@ -27,12 +12,29 @@
         getDog(dogJson);
     }
 
+    function fetchDogis(): Promise<Api> {
+        return fetch(urlForAPI).then(r => r.json());
+    }
+
+    function getDog(ulr : Api) {
+        const dog = document.getElementById('dog') as HTMLImageElement;
+        const two = document.getElementById('two') as HTMLDivElement;
+
+        // dog.src = ulr.message;
+        (dog).src = ulr.message;
+        (dog).style.border = '3px solid hotpink';
+        (dog).style.borderRadius = '50%';
+        (two).style.display = 'block';
+    }
+
 </script>
+
 <img id="me" src="images/pic2.jpg" alt="That's me">
     <h2> Hello? Dogi </h2>
     <div class = "flexbox">
+
         <div id = "one"><button id="getDogImg" on:click={handleClick}> Go </button></div>
-        <div id = "two"><img id = "dog" alt = "Some dog" {stroka}></div>
+        <div id = "two"><img id = "dog" alt = "Some dog"></div>
     </div>
 <style>
     #me {

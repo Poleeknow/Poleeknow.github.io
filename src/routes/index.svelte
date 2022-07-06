@@ -34,7 +34,7 @@
 <div class="flexbox">
 
     <div id="one">
-        <button id="getDogImg" on:click={handleClick}> Go</button>
+        <button id="getDogImg" on:click={handleClick}>Go</button>
     </div>
     <div id="two"><img id="dog" alt="Some dog" src=""></div>
 </div>

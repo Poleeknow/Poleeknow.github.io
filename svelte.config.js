@@ -18,6 +18,9 @@ const config = {
 		methodOverride: {
 			allowed: ['PATCH', 'DELETE']
 		},
+		paths: {
+		      base: dev ? '' : '/your-repo-name',
+		},
 		trailingSlash: 'always'
 	}
 };

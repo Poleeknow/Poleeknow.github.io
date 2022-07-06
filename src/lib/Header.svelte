@@ -1,5 +1,3 @@
-
-
 <header style="background-color: lavenderblush;
         border: none;
         margin: 0;
@@ -35,34 +33,3 @@
                 font-size: 24px;"> Contact me</a>
     </nav>
 </header>
-
-
-<style> 
-    header {
-        background-color: lavenderblush;
-        border: none;
-        margin: 0;
-        overflow: hidden;
-        width: 100%;
-    }
-    .menu{
-            width: auto;
-            color: hotpink;
-            text-decoration: none;
-            text-align: center;
-            font-size: 24px;
-    }
-    h1 {
-        color: hotpink;
-        margin: 30px 30px 20px 30px;
-        text-align: left;
-            font-size: 48px;
-    }
-    nav {
-            margin-bottom: 10px;
-            width: 100%;
-            display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    }
-</style>

@@ -19,25 +19,3 @@
         <img id="ig" src="/images/ig3.png"  alt="ig" style="width: 60px;">
     </a>
 </div>
-
-<style>
-    h2 {
-        color: hotpink;
-        margin: 30px;
-        margin-bottom: 20px;
-        text-align: left;
-        font-size: 36px;
-        overflow: hidden;
-    }
-    .sl {
-        text-align: left;
-        margin: 45px;
-        margin-left: 30px;
-    }
-    #ig {
-        width: 60px;
-    }
-    #tg {
-        width: 45px;
-    }
-</style>

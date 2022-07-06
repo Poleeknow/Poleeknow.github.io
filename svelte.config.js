@@ -19,7 +19,7 @@ const config = {
 			allowed: ['PATCH', 'DELETE']
 		},
 		paths: {
-		      base: dev ? '' : '/your-repo-name',
+		      base: dev ? '' : '/Poleeknow.github.io',
 		},
 		trailingSlash: 'always'
 	}

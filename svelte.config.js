@@ -18,9 +18,9 @@ const config = {
 		methodOverride: {
 			allowed: ['PATCH', 'DELETE']
 		},
-		paths: {
-		      base: dev ? '' : '/Poleeknow.github.io',
-		},
+		// paths: {
+		// 	base: dev ? '' : '/Poleeknow.github.io',
+		// },
 		trailingSlash: 'always'
 	}
 };

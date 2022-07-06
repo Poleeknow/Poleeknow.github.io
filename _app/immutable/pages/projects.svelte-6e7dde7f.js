@@ -1,5 +1,0 @@
-import{S as u,i as d,s as y,e as i,t as I,c,a as h,h as f,d as r,b as _,g as v,F as p,n as l}from"../chunks/index-c54306ee.js";function x(m){let e,a,s;return{c(){e=i("main"),a=i("p"),s=I(`Unfortunately, right now I have no projects that I can share.
-        But my teammates and I are working on a new mobile application for delivery. That's all I can say.
-        It's an exiting process. I hope we all succeed. So, maybe later I'll share here the result.`),this.h()},l(t){e=c(t,"MAIN",{});var n=h(e);a=c(n,"P",{class:!0});var o=h(a);s=f(o,`Unfortunately, right now I have no projects that I can share.
-        But my teammates and I are working on a new mobile application for delivery. That's all I can say.
-        It's an exiting process. I hope we all succeed. So, maybe later I'll share here the result.`),o.forEach(r),n.forEach(r),this.h()},h(){_(a,"class","svelte-1nubrx0")},m(t,n){v(t,e,n),p(e,a),p(a,s)},p:l,i:l,o:l,d(t){t&&r(e)}}}class w extends u{constructor(e){super(),d(this,e,null,x,y,{})}}export{w as default};

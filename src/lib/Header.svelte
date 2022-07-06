@@ -3,13 +3,13 @@
 <header>
     <a href="/" style="text-decoration: none !important; border: none !important"><h1 id="header" >POLINA BAZHENOVA</h1></a>
     <nav>
-        <a class="menu" href= "about_me"
+        <a class="menu" href= "/about_me"
                 style ="width: auto;
                 color: hotpink;
                 text-decoration: none;
                 text-align: center;
                 font-size: 24px;"> About me</a>
-        <a class="menu" href= "projects"
+        <a class="menu" href= "/projects"
                 style ="width: auto;
                 color: hotpink;
                 text-decoration: none;

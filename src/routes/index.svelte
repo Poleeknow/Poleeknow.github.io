@@ -29,7 +29,7 @@
 </script>
 
 
-<img id="me" src="images/pic2.jpg" alt="That's me">
+<img id="me" src="/images/pic2.jpg" alt="That's me">
 <h2> Hello? Dogi </h2>
 <div class="flexbox">
 

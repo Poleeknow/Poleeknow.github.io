@@ -2,10 +2,10 @@
 <div>
     <h2> Social links </h2>
     <a class="sl" href="https://tlgg.ru/poleeknow">
-        <img id="tg" src="images/tg3.png" alt="tg">
+        <img id="tg" src="/images/tg3.png" alt="tg">
     </a>
     <a class="sl" href="https://www.instagram.com/poleeknow">
-        <img id="ig" src="images/ig3.png"  alt="ig">
+        <img id="ig" src="/images/ig3.png"  alt="ig">
     </a>
 </div>
 

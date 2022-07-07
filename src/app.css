@@ -107,7 +107,7 @@ nav {
     width: 92%;
     height: 69%;
 }
-#getDogImg {
+button {
     font-size: 300%;
     border-radius: 50%;
     background-color: lavenderblush;
@@ -115,7 +115,7 @@ nav {
     border: 2px solid hotpink;
     transition-duration: 0.4s;
 }
-#getDogImg:hover {
+button:hover {
     background-color: hotpink;
     color: lavenderblush;
 }
